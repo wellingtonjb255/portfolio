@@ -1,0 +1,108 @@
+/* Este é um arquivo de comentários em CSS. [cite_start]Eles explicam o código. [cite: 39] */
+
+/* Estilos gerais para todo o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilo do cabeçalho e da navegação */
+header {
+    background-color: #333; /* Cor de fundo do menu */
+    color: white; /* Cor do texto do menu */
+    padding: 1rem 0;
+    position: sticky; /* Faz o menu ficar fixo no topo ao rolar */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garante que o menu fique sobre outros elementos */
+}
+
+nav ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centraliza os itens do menu */
+}
+
+nav ul li {
+    display: inline; /* Coloca os itens do menu na mesma linha */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold;
+}
+
+/* Efeito simples ao passar o mouse sobre o link */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo padrão para todas as seções */
+section {
+    padding: 60px 20px; /* Espaçamento interno (vertical e horizontal) */
+    min-height: 80vh; /* Altura mínima para cada seção ocupar boa parte da tela */
+    border-bottom: 1px solid #ddd; /* Linha sutil separando as seções */
+}
+
+/* Centraliza o título e subtítulo da primeira seção */
+#sobre-mim {
+    text-align: center;
+}
+
+/* Estilo para os itens do portfólio */
+.projeto {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+[cite_start]/* Estilos para o formulário de contato [cite: 38] */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+form label {
+    display: block; /* Faz cada label ficar em sua própria linha */
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%; /* Faz os campos ocuparem toda a largura do formulário */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Muda o cursor para uma "mãozinha" */
+}
+
+form button:hover {
+    background-color: #555; /* Escurece o botão ao passar o mouse */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
