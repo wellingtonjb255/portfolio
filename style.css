@@ -5,13 +5,13 @@ body {
     font-family: Arial, sans-serif; /* Define a fonte */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Cor de fundo suave */
-    color: #333; /* Cor do texto principal */
+    background-color: #73C2BE; /* Cor de fundo suave */
+    color: #000000; /* Cor do texto principal */
 }
 
 /* Estilo do cabeçalho e da navegação */
 header {
-    background-color: #333; /* Cor de fundo do menu */
+    background-color: #04030F; /* Cor de fundo do menu */
     color: white; /* Cor do texto do menu */
     padding: 1rem 0;
     position: sticky; /* Faz o menu ficar fixo no topo ao rolar */
@@ -88,7 +88,7 @@ form button {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #333;
+    background-color: #04030F;
     color: white;
     border: none;
     border-radius: 4px;
@@ -103,6 +103,6 @@ form button:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #04030F;
     color: white;
 }
